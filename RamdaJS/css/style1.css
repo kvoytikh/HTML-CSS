@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+}
+.all_content{
+    border: 1px solid black;
+    margin: 0px 100px;
+}
+.logo {
+    width: 292px;
+    height: 74px;
+    margin-top: 61px;
+    margin-left: -5px;
+}
+a{
+    text-decoration: none;
+}
+.logo1 {
+    display: inline;
+    font-size: 75px;
+    color: #000000;
+    font-family: "Myriad Pro";
+    text-align: center;
+}
+.logo2 {
+    display: inline;
+    font-size: 75px;
+    color: deepskyblue;
+    font-family: "Myriad Pro";
+    text-align: center;
+}
+.menu ul {
+    list-style: none; /*убираем маркеры списка*/
+    padding: 0px 114px /*убираем левый отступ, равный 40px*/
+}
+
+.menu li{
+    float: left;
+    padding: 35px;
+    line-height: 0px;
+    font-size: 24px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+
+}
+.menu {
+    width: 1148px;
+    height: 70px;
+    background-color: #35444f;
+    margin-top: 44px;
+}
+.menu li:hover{
+    background-color: #222f3a;
+}
+.menu2{
+    width: 344px;
+    height: 399px;
+    margin-top: 51px;
+}
+.menu2 ul{
+    list-style: none;
+}
+.menu2 .li1{
+    border-top: 1px black solid;
+}
+.menu2 .li2{
+    border-bottom: 1px black solid;
+}
+.menu2 li{
+    font-size: 27px;
+    line-height: 80px;
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+    color: #495863;
+    font-family: "Myriad Pro";
+    padding-left: 70px;
+}
+.menu2 li:hover{
+    background-color: #dbdbdb;
+}
+.menu2 li a:hover{
+    margin-left: 10px;
+}
+.image img {
+    border: 1px black solid;
+}
+img{
+    float: right;
+    margin-top: 70px;
+    margin-left: 80px;
+    padding-bottom: 14px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.content div{
+    float: left;
+}
+.text{
+    display: inline-block;
+    width: 750px;
+    height: 119px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2c2c2c;
+    font-family: "Myriad Pro";
+    padding-top: 124px;
+    margin-left: 531px;
+    margin-right: 134px;
+}
+.menu3 ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0px; /*убираем верхнее и нижнее поле, равное 1em*/
+    margin-left: 47px /*убираем левый отступ, равный 40px*/
+}
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+}
+
+.menu3 li{
+    float: left;
+    align: center;
+    padding-top: 36px;
+    padding-right: 30px;
+    line-height: 0px;
+    font-size: 24px;
+    color: black;
+    font-family: "Myriad Pro";
+
+}
+.menu3 {
+    width: 1170px;
+    height: 69px;
+    background-color: #63696e;
+    align: center;
+    margin-top: 33px;
+    margin-left: 99px;
+}
+.menu3 li:hover{
+    color: deepskyblue;
+    text-decoration: underline;
+}
+
+.ma {
+    font-size: 24px;
+    line-height: 75px;
+    color: #010101;
+    font-family: "Myriad Pro";
+}
+.menu3 div{
+    align: left;
+}
+img {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+
+img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
